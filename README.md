@@ -1,7 +1,5 @@
 # Projekt 2 - Decision tree
 
-**Bei Verwendung des Jupyter Notebooks und zur Durchführung der erforderten Übungsaufgaben, müssen zunächst folgende Installationen durchgeführt werden: 
-
 **Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
 -> %conda install pandas 
 -> %conda install numpy
