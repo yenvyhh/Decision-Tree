@@ -1,4 +1,5 @@
 # Projekt 2 - Decision tree
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Decision-Tree/HEAD)
 
 **Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
 -> %conda install pandas 
