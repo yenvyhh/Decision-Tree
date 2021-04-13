@@ -1,41 +1,6 @@
 # Projekt 2 - Decision tree
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Decision-Tree/main?filepath=Decision%20Trees%20Und%20Random%20Forests%20-%20Projekt%202.ipynb)
 
-**Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
--> %conda install pandas 
--> %conda install numpy
--> %conda install sqlalchemy 
--> %conda install lxml
--> %conda install openpyxl 
--> %conda install xlrd 
--> %conda install matplotlib 
--> %conda install seaborn 
--> %conda install scikit-learn - sklearn
---> %conda install pydot
---> %conda install graphviz
---> %pip install pydot
---> %pip install graphviz
---> %pip install six
-
-**Zu Beginn des Notebooks, werden die installierten Librarys wie folgt importiert:**
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report,confusion_matrix
-from IPython.display import Image
-
-from six import StringIO
-from sklearn.tree import export_graphviz
-import pydot
-
-from sklearn.ensemble import RandomForestClassifier
-
-
 **Die Daten importieren,als DataFrame abspeichern und das Head anzeigen lassen:**
 loans = pd.read_csv("Loan_Data.csv")
 loans.head()
