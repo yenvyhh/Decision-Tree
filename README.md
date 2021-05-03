@@ -1,6 +1,8 @@
 # Projekt 2 - Decision tree
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Decision-Tree/main?filepath=Decision%20Trees%20Und%20Random%20Forests%20-%20Projekt%202.ipynb)
 
+**Zu Beginn bitte unter "Cell" -> "Run All" auswählen.**
+
 **Die Daten importieren,als DataFrame abspeichern und das Head anzeigen lassen:**
 loans = pd.read_csv("Loan_Data.csv")
 loans.head()
